@@ -34,7 +34,7 @@
   box-shadow: 2px 5px 10px grey;
   position: absolute;
   transform:rotate(-50deg);
-  top: 22%;
+  top: 20%;
   left: 35%;
 }
 .seed2{
@@ -45,7 +45,7 @@
   box-shadow: 2px 5px 10px grey;
   position: absolute;
   transform:rotate(60deg);
-  top: 21%;
+  top: 19%;
   left: 40%;
 }
 .seed3{
@@ -56,7 +56,7 @@
   box-shadow: 2px 5px 10px grey;
   position: absolute;
   transform:rotate(-59deg);
-  top: 22%;
+  top: 19%;
   left: 45%;
 }
 .seed4{
@@ -67,7 +67,7 @@
   box-shadow: 2px 5px 10px grey;
   position: absolute;
   transform:rotate(40deg);
-  top: 21%;
+  top: 20%;
   left: 50%;
 }
 .seed5{
@@ -78,7 +78,7 @@
   box-shadow: 2px 5px 10px grey;
   position: absolute;
   transform:rotate(-40deg);
-  top: 24%;
+  top: 21%;
   left: 55%;
 }
 .seed6{
@@ -89,7 +89,7 @@
   box-shadow: 2px 5px 10px grey;
   position: absolute;
   transform:rotate(40deg);
-  top: 22%;
+  top: 19%;
   left: 60%;
 }
 a{
