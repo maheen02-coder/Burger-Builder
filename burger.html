@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="burger.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="up_nav">
+      <div class="main_div">
+        <img src="./javascipt batch 114/Capture.PNG" alt="" height="70px" />
+      </div>
+      <div>
+        <ul class="ul1">
+          <li class="li_hover">
+            <a href="./burger.html"><sup>Burger Builder</sup></a>
+          </li>
+          <li class="li_hover">
+            <a href="./burger login file.html" target="_blank"
+              ><sup>Login</sup></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <center>
+      <div class="burger">
+        <div class="upper_bun">
+          <span class="seed1"></span>
+          <span class="seed2"></span>
+          <span class="seed3"></span>
+          <span class="seed4"></span>
+          <span class="seed5"></span>
+          <span class="seed6"></span>
+        </div>
+        <p id="message" class="pre_1"><strong>No Ingredients Added</strong></p>
+        <p id="lettuce"></p>
+        <p id="bacon"></p>
+        <p id="Cheese"></p>
+        <p id="Meat"></p>
+        <div class="lower_bun"></div>
+      </div>
+    </center>
+    <footer>
+      <center>
+        <br />
+        <div class="dis_flex">
+          <p>Current Price: $</p>
+          <p id="price"><strong>50.00</strong></p>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Lettuce</th>
+              <td>
+                <button class="btn_less" id="less_id" onclick="less_lettuce()">
+                  Less
+                </button>
+              </td>
+              <td>
+                <button class="btn_more" id="btn_m2" onclick="add_lettuce()">
+                  More
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th>Bacon</th>
+              <td>
+                <button
+                  class="btn_less"
+                  onclick="less_bacon()"
+                  id="btn_less_bacon"
+                >
+                  Less
+                </button>
+              </td>
+              <td>
+                <button class="btn_more" onclick="add_bacon()">More</button>
+              </td>
+            </tr>
+            <tr>
+              <th>Cheese</th>
+              <td>
+                <button
+                  class="btn_less"
+                  onclick="less_cheese()"
+                  id="btn_less_cheese"
+                >
+                  Less
+                </button>
+              </td>
+              <td>
+                <button class="btn_more" onclick="add_cheese()">More</button>
+              </td>
+            </tr>
+            <tr>
+              <th>Meat</th>
+              <td>
+                <button
+                  class="btn_less"
+                  onclick="less_meat()"
+                  id="btn_less_meat"
+                >
+                  Less
+                </button>
+              </td>
+              <td>
+                <button class="btn_more" onclick="add_meat()">More</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" class="td_last">
+                <button class="btn_signin" onclick="saveOrder()">
+                  <a href="./burger login file.html">SIGN UP TO ORDER</a>
+                </button>
+              </td>
+            </tr>
+          </thead>
+        </table>
+      </center>
+    </footer>
+    <script src="./burger.js"></script>
+  </body>
+</html>
