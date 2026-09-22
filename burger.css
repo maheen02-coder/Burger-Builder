@@ -185,117 +185,115 @@ th{
   overflow-y: scroll;
 }
 @media (max-width: 480px) {
-
   .up_nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     gap: 0;
     width: 100%;
     box-sizing: border-box;
-    align-items: center;
     background-color: #703b09;
     margin: 0;
     padding: 5px 10px;
     position: relative;
   }
-
   .main_div img {
     height: 50px;
   }
-
   .ul1 {
     display: flex;
     gap: 10px;
     padding: 0;
     margin: 0;
   }
-
   .li_hover {
     font-size: 14px;
   }
-
   .burger {
     width: 100%;
     margin-top: 30px;
   }
-
   .upper_bun {
+    position: relative;
     width: 90%;
     height: 70px;
-    margin: auto;
+    margin: 0 auto;
+    background-color: #D97331;
+    border-radius: 50% 50% 0 0;
   }
-
-  .lower_bun {
-    width: 90%;
-    height: 55px;
-    margin: auto;
-  }
-
-  .pre_1 {
-    font-size: 12px;
-  }
-
   .seed1,
   .seed2,
   .seed3,
   .seed4,
   .seed5,
   .seed6 {
-    width: 8px;
-    height: 25px;
+    position: absolute;
+    top: 25px;
+    width: 7px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 2px 3px 6px grey;
   }
-
   .seed1 {
-    left: 25%;
+    left: 22%;
+    transform: rotate(-50deg);
   }
-
   .seed2 {
-    left: 35%;
+    left: 33%;
+    transform: rotate(60deg);
   }
-
   .seed3 {
-    left: 42%;
+    left: 44%;
+    transform: rotate(-59deg);
   }
-
   .seed4 {
-    left: 50%;
+    left: 55%;
+    transform: rotate(40deg);
   }
-
   .seed5 {
-    left: 58%;
+    left: 66%;
+    transform: rotate(-40deg);
   }
-
   .seed6 {
-    left: 68%;
+    left: 77%;
+    transform: rotate(40deg);
   }
-
+  .pre_1 {
+    font-size: 12px;
+    width: fit-content;
+  }
+  .lower_bun {
+    width: 90%;
+    height: 55px;
+    margin: 0 auto;
+    background-color: #D97331;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
   footer {
     width: 100%;
     box-sizing: border-box;
     position: relative;
     top: 50px;
   }
-
   .dis_flex {
-    left: 0;
+    display: flex;
     justify-content: center;
+    left: 0;
   }
-
   table {
     margin: auto;
   }
-
   th,
   td {
     font-size: 16px;
     padding: 8px;
   }
-
   .td_last {
     padding-left: 0;
   }
-
   .btn_less,
   .btn_more {
     font-size: 13px;
