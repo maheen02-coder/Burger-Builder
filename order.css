@@ -47,3 +47,52 @@ div{
   text-decoration: none;
   box-shadow: none;
 }
+@media (max-width: 480px) {
+  .up_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #703b09;
+    margin: 0;
+    padding: 5px 10px;
+  }
+  .main_div img {
+    height: 50px;
+  }
+  .ul1 {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+  .li_hover {
+    font-size: 14px;
+  }
+  #orders {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .order_box {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px grey;
+    overflow: hidden;
+  }
+  .order_box p {
+    font-size: 14px;
+    word-wrap: break-word;
+  }
+  .order_box button {
+    font-size: 12px;
+    padding: 5px 8px;
+    margin: 3px;
+  }
+}
